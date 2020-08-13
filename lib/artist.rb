@@ -4,7 +4,6 @@ class Artist
   attr_accessor :name, :songs, :artist
 
     Artist.class_variable_set(:@@all, [])
-  }
 
   def initialize(name)
     @name = name
