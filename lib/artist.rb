@@ -46,5 +46,5 @@ class Artist
       puts song.name
     end
   end
-
+ artist = Artist.new('')
 end
