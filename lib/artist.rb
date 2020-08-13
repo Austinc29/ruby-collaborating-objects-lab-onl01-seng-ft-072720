@@ -21,7 +21,7 @@ class Artist
 
   def self.all
     @@all
-    
+     artist = Artist.new('Michael Jackson')
   end
  
 
@@ -47,5 +47,5 @@ class Artist
       puts song.name
     end
   end
- artist = Artist.new('')
+ 
 end
