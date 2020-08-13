@@ -3,7 +3,7 @@ require 'pry'
 class Artist
   attr_accessor :name, :songs, :artist
 
-    Artist.class_variable_set(:@@all, [])
+    @@all = []
 
   def initialize(name)
     @name = name
@@ -33,7 +33,7 @@ class Artist
 
 
   def self.find(name)
-    self.all.find { |artist| artist.name == name }
+    self.all.find { |artist| artist.name = name }
   end
  
 
