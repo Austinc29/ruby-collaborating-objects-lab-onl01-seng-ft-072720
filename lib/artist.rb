@@ -17,13 +17,12 @@ class Artist
   def save
     @@all << self
   end
-#this method allows a user to store their artist information in an array to be called back later
-#puts the entire artist instance into the class method all, which includes ALL info for ALL artist objects
+
 
   def self.all
     @@all
   end
-  #Different than #save, this class method allows the user to return all info from a particular artist instance
+ 
 
   # def self.find_or_create_by_name(name)
   #   if self.find(name)
